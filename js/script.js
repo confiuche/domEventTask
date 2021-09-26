@@ -5,19 +5,9 @@
 
 
 //2. Replace the text "Change me" with "Hello World!".
-let chg = document.getElementsByTagName("change_heading")//.innerText="Hello World!"
-//let chgs = document.getElementsByTagName("change_heading").innerHTML="Hello World!"
-// chg.innerText = "Hello World!"
-chg.innerHTML = "Hello World!"
+let chg = document.getElementById("change_heading").innerText="Hello World!"
+//chg.innerHTML = "Hello World!"
 console.log(chg)
-//console.log(chgs)
-
-
-let parag = document.createElement("p")
-console.log(parag)
-let inf = document.getElementById("info")
-parag.innerText = "Example for"
-//inf.appendChild(parag)
 
 
 //3. When a user hovers over one of the colored boxes change the text to display 
